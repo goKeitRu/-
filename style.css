@@ -107,7 +107,7 @@ p {
   word-spacing: 5.8pt;
   line-height: 1.5;
   color: grey;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .bold {
@@ -118,6 +118,7 @@ p {
   letter-spacing: -0.2pt;
   word-spacing: -2.8pt;
   line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 .info {
