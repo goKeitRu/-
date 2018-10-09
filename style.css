@@ -86,6 +86,7 @@ header {
 	background: #dcefff;
 }
 
+
 .blockwhite {
 	text-align: center;
 	background: white;
@@ -112,6 +113,7 @@ p {
 	line-height: 1.5;
 	color: grey;
 	margin-bottom: 40px;
+	padding-top: 40px;
 }
 
 .bold {
@@ -132,7 +134,7 @@ p {
 	word-spacing: 5.8pt;
 	line-height: 1.5;
 	color: black;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 /* конец стилей id классов и других меньших частей */
