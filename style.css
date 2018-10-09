@@ -23,7 +23,7 @@ body {
 }
 
 div {
-  background: #c77fe4;
+  background: #dcefff;
 }
 
 a {
@@ -107,11 +107,13 @@ p {
   word-spacing: 5.8pt;
   line-height: 1.5;
   color: grey;
+  margin-bottom: 20px;
 }
 
 .bold {
   font-family: helvetica, sans-serif;
   font-weight: bold;
+  color: black;
   font-size: 3em;
   letter-spacing: -0.2pt;
   word-spacing: -2.8pt;
@@ -124,7 +126,7 @@ p {
   letter-spacing: 2pt;
   word-spacing: 5.8pt;
   line-height: 1.5;
-  color: silver;
+  color: black;
 }
 
 /* конец стилей id классов и других меньших частей */
