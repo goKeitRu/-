@@ -15,7 +15,7 @@ Html {
 body {
 	width: 100%;
 	height: 100%;
-	color: #2f2c2c;
+	color: white;
 	background: #f7f7f7;
 	font-size: 1em;
 	font-family: "Jazz Gothic", sans-serif;
@@ -71,11 +71,12 @@ header {
 	font-size: 3em;
 	font-family: Gabriola, sans-serif;
 	color: silver;
-	padding: 20px;
-	margin-bottom: 20px 40px 50px;
+	padding: 1em;
+	margin-top: 1em;
 }
 
 #contact {
+	margin-top: 90px;
 	font-size: 2em;
 	padding: 10px;
 	font-family: Arial, sans-serif;
@@ -85,6 +86,7 @@ header {
 .blocklight-blue {
 	text-align: left;
 	background: #dcefff;
+	padding: 2.2em;
 }
 
 
@@ -102,17 +104,13 @@ input,
 	margin: 10px;
 }
 
-p {
-	;
-}
-
 .basic {
 	font-family: georgia, serif;
 	font-size: 1.2em;
 	letter-spacing: 2pt;
 	word-spacing: 5.8pt;
 	line-height: 1.5;
-	color: grey;
+	color: black;
 	margin-bottom: 40px;
 	padding-top: 40px;
 }
@@ -121,11 +119,12 @@ p {
 	font-family: helvetica, sans-serif;
 	font-weight: bold;
 	color: black;
-	font-size: 3em;
+	font-size: 2em;
 	letter-spacing: -0.2pt;
 	word-spacing: -2.8pt;
 	line-height: 1.1;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .info {
@@ -137,14 +136,21 @@ p {
 	color: black;
 	margin-bottom: 40px;
 }
+/*cтиль для кнопок*/
 .btn {
-	padding: 30px;
+	padding: 20px 55px;
 	border: 1px solid white;
-	background: silver;
-	color: crimson;
-	border-radius: 15px;
+	background: #ec543f;
+	color: white;
+	font-weight: bold;
+	border-radius: 40px;
+	text-align: center;
+	margin: 50px;
 }
-/* конец стилей id классов и других меньших частей */
+
+
+/* конец стилей id классов
+и других меньших частей */
 footer {
 	border-top: 2px solid silver;
 	margin-top: 10px;
