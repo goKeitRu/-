@@ -15,15 +15,18 @@ Html {
 body {
 	width: 100%;
 	height: 100%;
-	color: white;
+	color: gray;
 	background: white;
 	font-size: 1em;
 	font-family: "Jazz Gothic", sans-serif;
-	line-height: 100%;
+}
+
+h1 {
+	padding: 1em;
 }
 
 a {
-	color: indianred;
+	color: silver;
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition: all.6s ease;
@@ -59,11 +62,13 @@ footer {
 	/* темно-бирюзовый */
 	min-height: 50px;
 	padding: 15px;
+
+
 }
 
 header {
 	border-bottom: 1px solid silver;
-	height: 80px;
+	height: 40px;
 }
 
 /*конец стилей для общих параметров  */
@@ -72,23 +77,21 @@ header {
 	font-size: 3em;
 	font-family: Gabriola, sans-serif;
 	color: ivory;
-	padding: 20px;
-	margin-bottom: 20px 40px 50px;
+	padding: 40px;
 }
 
 #contact {
-	margin-top: 10px;
-	margin-top: 90px;
 	font-size: 2em;
-	padding: 10px;
 	font-family: helvetica, sans-serif;
-	color: white;
+	text-decoration: none;
 }
 
 .blocklight-blue {
 	text-align: left;
 	background: #dcefff;
 	padding: 1.2em;
+	width: 100%;
+	height: auto;
 }
 
 
@@ -101,16 +104,17 @@ header {
 /* вводное поле */
 input,
 [type=text].field {
-	border-radius: 8px;
+	height: 2em;
+	width: 80%;
+	border-radius: 100px;
 	border: 2px solid silver;
-	padding: 10px;
-	margin: 25px;
+	padding: 10px 10px;
+	margin: 20px 0px;
 }
-
-p {}
 
 .basic {
 	font-family: georgia, serif;
+	font-weight: normal;
 	font-size: 1.2em;
 	letter-spacing: 2pt;
 	word-spacing: 5.8pt;
@@ -150,7 +154,9 @@ p {}
 	font-weight: bold;
 	border-radius: 100px;
 	background: #ec543f;
+	width: auto;
 }
+
 /* конец стилей id классов и других меньших частей */
 footer {
 	border-top: 2px solid silver;
